@@ -35,12 +35,9 @@ def update_website_context(context):
 		]
 
 	post_login += [
-		{"label": "User", "url": "user", "icon": "icon-user"},
-		{"label": "Addresses", "url": "addresses", "icon": "icon-map-marker"},
-		{"label": "My Orders", "url": "orders", "icon": "icon-list"},
-		{"label": "My Tickets", "url": "tickets", "icon": "icon-tags"},
-		{"label": "Invoices", "url": "invoices", "icon": "icon-file-text"},
-		{"label": "Shipments", "url": "shipments", "icon": "icon-truck"},
+		
+		{"label": "My Profile", "url": "edit-profile", "icon": "icon-user"},
+		{"label": "Jobs Applied", "url": "jba", "icon": "icon-edit"},
 		{"class": "divider"}
 	]
 
